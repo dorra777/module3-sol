@@ -1,0 +1,45 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    border: none;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.navbar-toggle {
+    background-color: white;
+}
+
+/* Titre principal */
+h1 {
+    margin: 20px 0;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/* Sections */
+.menu-section {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Images : taille moyenne légèrement plus petite */
+.medium-image {
+    width: 60%; /* Ajusté pour être un peu plus petit */
+    height: auto;
+    border-radius: 10px;
+}
